@@ -1,6 +1,6 @@
 import React from "react";
 import ReactModal from "react-modal";
-import "../../src/projectmodal.css";
+import "../styles/projectmodal.css";
 
 const ModalSection = ({ isOpen, modalClose }) => {
   const modalOpen = () => {
