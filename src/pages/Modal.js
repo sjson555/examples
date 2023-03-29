@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SettingModal from "../components/SettingModal";
 import CommentModal from "../components/CommentModal";
 import EditorModal from "../components/EditorModal";
+import "../styles/modal.css";
 
 const Modal = () => {
   const [isSettingOpen, setIsSettingOpen] = useState(false);

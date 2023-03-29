@@ -1,0 +1,33 @@
+.goToModal {
+  background-color: transparent;
+  color: #007aff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: inset 0 0 0 1px #007aff;
+  text-decoration: none;
+}
+
+.goToModal:hover {
+  background-color: rgba(0, 122, 255, 0.1);
+  color: #007aff;
+}
+
+.goToModal:active {
+  background-color: rgba(0, 122, 255, 0.2);
+  color: #007aff;
+  box-shadow: none;
+}
+
+.modalLink {
+  text-decoration: none;
+}
